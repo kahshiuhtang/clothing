@@ -1,0 +1,22 @@
+.ViewButton{
+    text-align: center;
+    vertical-align: top;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    background: #6290C3;
+    width: 35vw;
+    height:80vh;
+}
+.ExploreButton, .AddButton, .StatsButton{
+    text-align: center;
+    vertical-align: top;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    background: #6290C3;
+    width: 35vw;
+    height: 20vh;
+}
+.mainContainer{
+    display:flex;
+}
