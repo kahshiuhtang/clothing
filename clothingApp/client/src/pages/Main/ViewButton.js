@@ -4,8 +4,10 @@ import "./styles.css";
 
 function ViewButton() {
   return (
-    <div className="ViewButton">
-      <h1>View Button</h1>
+    <div className="Button">
+      <button className="ViewButton">
+        <h1>View Button</h1>
+      </button>
     </div>
   );
 }

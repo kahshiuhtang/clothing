@@ -4,8 +4,10 @@ import "./styles.css";
 
 function StatsButton() {
   return (
-    <div className="StatsButton">
-      <h1>Stats Button</h1>
+    <div className="Button">
+      <button className="StatsButton">
+        <h1>Stats Button</h1>
+      </button>
     </div>
   );
 }

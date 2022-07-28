@@ -4,15 +4,19 @@ import ViewButton from "./ViewButton";
 import AddButton from "./AddButton";
 import ExploreButton from "./ExploreButton";
 import StatsButton from "./StatsButton";
+import NavBar from "./NavBar";
 
 function Main() {
   return (
     <div className="mainContainer">
-      <ViewButton></ViewButton>
-      <div>
-        <AddButton></AddButton>
-        <ExploreButton></ExploreButton>
-        <StatsButton></StatsButton>
+      <NavBar></NavBar>
+      <div className="buttonContainer">
+        <ViewButton></ViewButton>
+        <div className="rightButtonContainer">
+          <AddButton></AddButton>
+          <ExploreButton></ExploreButton>
+          <StatsButton></StatsButton>
+        </div>
       </div>
     </div>
   );

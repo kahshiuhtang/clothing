@@ -4,8 +4,10 @@ import "./styles.css";
 
 function AddButton() {
   return (
-    <div className="AddButton">
-      <h1>Add Button</h1>
+    <div className="Button">
+      <button className="AddButton">
+        <h1>Add Button</h1>
+      </button>
     </div>
   );
 }
